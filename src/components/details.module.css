@@ -1,0 +1,7 @@
+.headerdiv{
+    border:2px solid grey 
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(1fr,1fr, 1fr);
+}
