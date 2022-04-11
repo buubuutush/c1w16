@@ -12,14 +12,9 @@ const GroceryDetails = () => {
                 <h1>Groceries</h1>
             </div>
           
-            <div className="container">
+            <div className={styles.container}>
                 {/* map through the data and display the cards */}
-                {/* {
-                    data.map((elem,i)=>{
-                      //  console.log(elem);
-                        <GroceryItem {...elem}/>
-                    })
-                } */}
+                
                
                {
                     data.map((elem,i)=>{
